@@ -1,6 +1,6 @@
 module.exports = function preset(context, options = {}) {
 
-  const { namespace } = options; ßß
+  const { namespace } = options;
 
   if (!namespace) {
     throw new Error("You must set config 'namespace' for babel-preset-ui5-next !")
@@ -34,5 +34,5 @@ module.exports = function preset(context, options = {}) {
       ["babel-plugin-ui5-next", { namespace }]
     ]
   };
-  
+
 };
