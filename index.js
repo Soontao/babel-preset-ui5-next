@@ -31,7 +31,6 @@ module.exports = function preset(context, options = {}) {
       "babel-plugin-transform-async-to-generator",
       "babel-plugin-transform-object-assign",
       "babel-plugin-transform-object-rest-spread",
-      "babel-plugin-transform-class-properties",
       ["babel-plugin-ui5-next", { namespace }],
       "babel-plugin-transform-es2015-classes"
     ]
