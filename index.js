@@ -9,6 +9,7 @@ module.exports = function preset(context, options = {}) {
   return {
     plugins: [
       "babel-plugin-syntax-jsx",
+      "babel-plugin-syntax-class-properties",
       "babel-plugin-transform-es2015-template-literals",
       "babel-plugin-transform-es2015-literals",
       "babel-plugin-transform-es2015-function-name",
@@ -27,11 +28,12 @@ module.exports = function preset(context, options = {}) {
       "babel-plugin-transform-es2015-block-scoping",
       "babel-plugin-transform-es2015-typeof-symbol",
       "babel-plugin-transform-regenerator",
-      "babel-plugin-syntax-class-properties",
       "babel-plugin-transform-async-to-generator",
       "babel-plugin-transform-object-assign",
       "babel-plugin-transform-object-rest-spread",
-      ["babel-plugin-ui5-next", { namespace }]
+      "babel-plugin-transform-class-properties",
+      ["babel-plugin-ui5-next", { namespace }],
+      "babel-plugin-transform-es2015-classes"
     ]
   };
 
