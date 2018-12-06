@@ -9,6 +9,7 @@ module.exports = function preset(context, options = {}) {
   return {
     plugins: [
       "babel-plugin-syntax-jsx",
+      "babel-plugin-syntax-decorators",
       "babel-plugin-syntax-class-properties",
       "babel-plugin-transform-es2015-template-literals",
       "babel-plugin-transform-es2015-literals",
