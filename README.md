@@ -7,3 +7,5 @@
 ![](https://openui5.org/images/OpenUI5_new_big_side.png)
 
 The next generation ui5 babel preset
+
+Just ref [babel-plugin-ui5-next](https://github.com/ui5-next/babel-plugin-ui5-next)
