@@ -29,7 +29,7 @@ module.exports = function preset(context, options = {}) {
       "babel-plugin-transform-es2015-block-scoping",
       "babel-plugin-transform-es2015-typeof-symbol",
       "babel-plugin-transform-regenerator",
-      "babel-plugin-transform-async-to-generator",
+      "babel-plugin-transform-async-to-promises",
       "babel-plugin-transform-object-assign",
       "babel-plugin-transform-object-rest-spread",
       ["babel-plugin-ui5-next", { namespace }],
