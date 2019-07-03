@@ -32,7 +32,8 @@ module.exports = function preset(context, options = {}) {
       "babel-plugin-transform-async-await",
       "babel-plugin-transform-object-rest-spread",
       ["babel-plugin-ui5-next", { namespace }],
-      "babel-plugin-transform-es2015-classes"
+      "babel-plugin-transform-es2015-classes",
+      "babel-plugin-transform-react-jsx"
     ]
   };
 

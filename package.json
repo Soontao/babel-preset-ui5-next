@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-ui5-next",
-  "version": "1.5.2",
+  "version": "1.6.1",
   "description": "The next generation UI5 babel preset",
   "author": {
     "name": "Theo Sun"
@@ -11,6 +11,7 @@
     "babel-plugin-syntax-class-properties": "^6.5.0",
     "babel-plugin-syntax-decorators": "^6.13.0",
     "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-async-await": "^1.0.0",
     "babel-plugin-transform-es2015-arrow-functions": "^6.3.13",
     "babel-plugin-transform-es2015-block-scoped-functions": "^6.3.13",
     "babel-plugin-transform-es2015-block-scoping": "^6.6.0",
@@ -29,9 +30,9 @@
     "babel-plugin-transform-es2015-typeof-symbol": "^6.6.0",
     "babel-plugin-transform-es2015-unicode-regex": "^6.3.13",
     "babel-plugin-transform-object-assign": "^6.22.0",
-    "babel-plugin-transform-async-await": "^1.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-plugin-ui5-next": "^1.5.1"
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-ui5-next": "^1.6.1"
   },
   "license": "MIT",
   "repository": {
