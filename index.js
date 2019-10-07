@@ -11,6 +11,9 @@ module.exports = function preset(context, options = {}) {
       [
         "babel-plugin-ui5-next", { namespace }
       ],
+      [
+        "@babel/plugin-transform-typescript", { isTSX: true }
+      ],
       "@babel/plugin-syntax-jsx",
       "@babel/plugin-syntax-class-properties",
       "babel-plugin-transform-async-to-promises",
