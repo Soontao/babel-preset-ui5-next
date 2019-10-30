@@ -28,7 +28,6 @@ module.exports = function preset(context, options = {}) {
       "@babel/plugin-transform-for-of",
       "@babel/plugin-transform-sticky-regex",
       "@babel/plugin-transform-unicode-regex",
-      "@babel/plugin-check-constants",
       "@babel/plugin-transform-spread",
       "@babel/plugin-transform-parameters",
       "@babel/plugin-transform-destructuring",
