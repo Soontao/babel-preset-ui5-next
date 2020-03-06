@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-ui5-next",
-  "version": "7.3.1",
+  "version": "7.3.2",
   "description": "The next generation UI5 babel preset",
   "author": {
     "name": "Theo Sun"

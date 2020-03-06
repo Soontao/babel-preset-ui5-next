@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [7.3.2](https://github.com/ui5-next/babel-plugin-ui5-next/compare/v7.3.1...v7.3.2) (2020-03-06)
+
+
+### Bug Fixes
+
+* release script ([6ee3679](https://github.com/ui5-next/babel-plugin-ui5-next/commit/6ee3679ccbc5292f8e9d69eb4ebf89eaf36b648b))
+
 ### [7.3.1](https://github.com/ui5-next/babel-plugin-ui5-next/compare/v7.3.0...v7.3.1) (2020-03-06)
 
 ## 7.3.0 (2020-03-06)
