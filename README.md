@@ -1,9 +1,10 @@
 # babel-preset-ui5-next
 
+![Node CI](https://github.com/ui5-next/babel-preset-ui5-next/workflows/Node%20CI/badge.svg)
+![Package Release](https://github.com/ui5-next/babel-preset-ui5-next/workflows/Package%20Release/badge.svg)
 [![npm version](https://badge.fury.io/js/babel-preset-ui5-next.svg)](https://badge.fury.io/js/babel-preset-ui5-next)
 [![GitHub license](https://img.shields.io/github/license/Soontao/babel-preset-ui5-next.svg)](https://github.com/Soontao/babel-preset-ui5-next/blob/master/LICENSE)
 
-![Node CI](https://github.com/ui5-next/babel-preset-ui5-next/workflows/Node%20CI/badge.svg)
 
 
 ![](https://openui5.org/images/OpenUI5_new_big_side.png)
