@@ -5,6 +5,9 @@
   "author": {
     "name": "Theo Sun"
   },
+  "scripts": {
+    "release": "standard-version --no-verify && git push --follow-tags origin master"
+  },
   "main": "index.js",
   "dependencies": {
     "@babel/core": "^7.0.0",
@@ -34,8 +37,10 @@
     "@babel/plugin-transform-typescript": "^7.6.0",
     "@babel/plugin-transform-unicode-regex": "^7.0.0",
     "babel-plugin-transform-async-to-promises": "^0.8.14",
-    "babel-plugin-transform-es2015-typeof-symbol": "^6.6.0",
     "babel-plugin-ui5-next": "^7.2.2"
+  },
+  "devDependencies": {
+    "standard-version": "^7"
   },
   "license": "MIT",
   "repository": {
