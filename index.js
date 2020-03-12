@@ -16,7 +16,6 @@ module.exports = function preset(context, options = {}) {
       ],
       "@babel/plugin-syntax-jsx",
       "@babel/plugin-syntax-class-properties",
-      "babel-plugin-transform-async-to-promises",
       "@babel/plugin-transform-template-literals",
       "@babel/plugin-transform-literals",
       "@babel/plugin-transform-function-name",
@@ -33,8 +32,6 @@ module.exports = function preset(context, options = {}) {
       "@babel/plugin-transform-destructuring",
       "@babel/plugin-transform-block-scoping",
       "@babel/plugin-transform-typeof-symbol",
-      "@babel/plugin-transform-regenerator",
-      "@babel/plugin-transform-object-assign",
       "@babel/plugin-proposal-object-rest-spread",
       [
         "@babel/plugin-proposal-decorators",
@@ -42,7 +39,7 @@ module.exports = function preset(context, options = {}) {
           "legacy": true
         }
       ],
-      "@babel/plugin-transform-react-jsx"
+      "@babel/plugin-transform-react-jsx",
     ]
   };
 

@@ -25,10 +25,8 @@
     "@babel/plugin-transform-for-of": "^7.0.0",
     "@babel/plugin-transform-function-name": "^7.0.0",
     "@babel/plugin-transform-literals": "^7.0.0",
-    "@babel/plugin-transform-object-assign": "^7.0.0",
     "@babel/plugin-transform-parameters": "^7.0.0",
     "@babel/plugin-transform-react-jsx": "^7.0.0",
-    "@babel/plugin-transform-regenerator": "^7.4.5",
     "@babel/plugin-transform-shorthand-properties": "^7.0.0",
     "@babel/plugin-transform-spread": "^7.0.0",
     "@babel/plugin-transform-sticky-regex": "^7.0.0",
@@ -36,8 +34,7 @@
     "@babel/plugin-transform-typeof-symbol": "^7.2.0",
     "@babel/plugin-transform-typescript": "^7.6.0",
     "@babel/plugin-transform-unicode-regex": "^7.0.0",
-    "babel-plugin-transform-async-to-promises": "^0.8.14",
-    "babel-plugin-ui5-next": "^7.2.2"
+    "babel-plugin-ui5-next": "^7.2.3"
   },
   "devDependencies": {
     "standard-version": "^7"
