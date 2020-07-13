@@ -37,7 +37,7 @@
     "babel-plugin-ui5-next": "^7.2.3"
   },
   "devDependencies": {
-    "standard-version": "^7"
+    "standard-version": "^8"
   },
   "license": "MIT",
   "repository": {
