@@ -1,0 +1,49 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+    - 4.0.2
+  - dependency-name: "@babel/plugin-proposal-object-rest-spread"
+    versions:
+    - 7.12.1
+    - 7.12.13
+    - 7.13.0
+  - dependency-name: "@babel/plugin-transform-destructuring"
+    versions:
+    - 7.12.1
+    - 7.12.13
+    - 7.13.0
+  - dependency-name: "@babel/plugin-transform-for-of"
+    versions:
+    - 7.12.1
+    - 7.12.13
+  - dependency-name: "@babel/plugin-transform-arrow-functions"
+    versions:
+    - 7.12.1
+    - 7.12.13
+  - dependency-name: "@babel/plugin-transform-parameters"
+    versions:
+    - 7.12.1
+    - 7.12.13
+  - dependency-name: "@babel/plugin-transform-typeof-symbol"
+    versions:
+    - 7.12.10
+  - dependency-name: "@babel/plugin-syntax-class-properties"
+    versions:
+    - 7.12.1
+  - dependency-name: "@babel/plugin-transform-duplicate-keys"
+    versions:
+    - 7.12.1
+  - dependency-name: "@babel/plugin-transform-literals"
+    versions:
+    - 7.12.1
+  - dependency-name: lodash
+    versions:
+    - 4.17.20
